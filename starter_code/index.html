@@ -8,7 +8,7 @@
     <!-- link the font awesome CDN -->
     <link
       href="https://use.fontawesome.com/releases/v5.0.1/css/all.css"
-      rel="stylesheet"
+      link rel="stylesheet" href="./stylesheets/">
     />
 
     <!-- link your styles -->
@@ -17,26 +17,40 @@
   </head>
 
   <body>
-    <nav>
-      <img src="./images/slack-logo.png" alt="slack_logo" />
+    <nav> 
+      <div class="duasimagens">
+      <img class="logoslack" src="./images/slack-logo.png" alt="slack_logo" />
+      <img class="iconehamburguer"src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEX///8AAAC8vLzt7e2ysrJycnIiIiLHx8fw8PCFhYWamprj4+PBwcHNzc3p6em4uLgvLy9CQkI3Nzd/f39qampvb2+Pj4+ioqLa2tpUVFRKSkr29vYYGBirq6smJiY9PT1hYWEPDw9YWFg1kJmwAAACDklEQVR4nO3d7XbBUBCF4UN8NwhRQqro/V9kiR/VH5pZM5Y5R9/nCvZe0ZzEmqkQAAAAAAAAAAAAAAAAAAAAnqvKu3Eajh5RbzTuRGzRNRece3doszVex413gXZFZik49I4vsbA09A4vM9EX3HtnF9I33HlHFxpqC9Yf3tGF1B/TN+/kUn0a3vP6n9LXv9P8g9Pi9U/8kHuHl1gaCoYw8Y7f7nNmahh63gXabE2vFhdZ6d3hL4e5tV+jmvfilD/kWwwAAAAAAAAAAAAAABCVOovUgwYV8tWn90zJXbu1cVzobBb7fOLaWHDqXaDd0VQwiSlh9YTwxcE7vUiuL5jEykynM9A3PHpnF6rUDQfe0YU22oIz7+RSpbZhEnfSi3dtw9HJO7qQ/tRfekcX0g8Kr72jC9XqhiPv6DKWh5oElhHOTC9RK+/0Avqtp0bfO3+rqa3g+QU47htqX3+X+VFtyn6cxl3zwgwAAAAAAAAAAAAAAMBz1ftjMYjTYWwepgnRT+8V1o7ZwrtCK/UIdKOOeyDqam9pmMLgnmVUP1Te2WW2+oZR/5PkG/oFtsI7ulBPW5B9i2io9y1e/xqGeNdjf1P/HSYw5H2lv5cmch7u1AVTWUA0PNOEOoUT0fboPYt/E9jyGyzNVYz6Bx7P74fGjZmLbPN18u5xR1E+oB8AAAAAAAAAAAAAAAAAAABufQPXyzi7ezBe2AAAAABJRU5ErkJggg==" alt=""/>
+    </div>
+      <!---
       <ul>
         <li>Why Slack?</li>
         <li>Pricing</li>
         <li>About Us</li>
         <li>Your Workspaces</li>
       </ul>
+    -->
     </nav>
     <header>
-      <img src="./images/home_talking.png" alt="home_work_happening" />
+      <div class="titulo1">
       <h1>Where Work Happens</h1>
+    </div>
       <p>
+        <div class="texto2">
         When your team needs to kick off a project, hire a new employee, deploy
         some code, review a sales contract, finalize next year's budget, measure
         an A/B test, plan your next office opening, and more, Slack has you
         covered.
+      </div>
       </p>
+      <div class="email">
+      <input type="email" placeholder="Emmail address">
+    </div>
+      <div>
       <button type="button" name="button">GET STARTED</button>
+    </div>
       <p>Already using Slack? <a href="#">Sign in</a></p>
+      <img src="./images/home_talking.png" alt="home_work_happening" />
     </header>
     <main>
       <div>
